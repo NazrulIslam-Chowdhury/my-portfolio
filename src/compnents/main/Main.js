@@ -26,17 +26,20 @@ const Main = () => {
                             <img src={img} alt="" />
                             <p className="font uppercase text-medium -mt-14 font-medium text-center text-gray-200 bg-sky-700">Nazrul islam chowdhury</p>
                         </li>
-                        <li className='flex items-center gap-x-1 mt-2'><Link to='/' className='text-medium text-gray-500 hover:text-white'><FaHome className='h-5 w-5' />HOME</Link></li>
-                        <hr style={{ border: '0.5px solid gray' }} />
-                        <li className='flex items-center gap-x-1 mt-2'><Link to='/about' className='text-medium text-gray-500 hover:text-white'><BsFillPersonFill className='h-5 w-5' />ABOUT ME</Link></li>
-                        <hr style={{ border: '0.5px solid gray' }} />
-                        <li className='flex items-center gap-x-1 mt-2'><a
-                            href='https://drive.google.com/file/d/1CEEncGAVQkM8yBPEw2_5mlqxpQAaHSKk/view?usp=share_link' className='text-medium text-gray-500 hover:text-white'><HiDocumentText className='h-5 w-5' />RESUME</a></li>
-                        <hr style={{ border: '0.5px solid gray' }} />
-                        <li className='flex items-center gap-x-1 mt-2'><Link to='/projects' className='text-medium text-gray-500 hover:text-white'><AiFillProject className='h-5 w-5' />PROJECTS</Link></li>
-                        <hr style={{ border: '0.5px solid gray' }} />
-                        <li className='flex items-center gap-x-1 mt-2'><Link to='/contact' className='text-medium text-gray-500 hover:text-white'><AiFillContacts className='h-5 w-5' />CONTACT</Link></li>
-                        <hr style={{ border: '0.5px solid gray' }} />
+                        <div className='flex flex-col items-start justify-center'>
+                            <li className='flex items-center gap-x-1 mt-2'><Link to='/' className='text-medium text-gray-500 hover:text-white'><FaHome className='h-5 w-5' />HOME</Link>
+                            </li>
+                            {/* <hr style={{ border: '0.5px solid gray' }} /> */}
+                            <li className='flex items-center gap-x-1 mt-2'><Link to='/about' className='text-medium text-gray-500 hover:text-white'><BsFillPersonFill className='h-5 w-5' />ABOUT ME</Link></li>
+                            {/* <hr style={{ border: '0.5px solid gray' }} /> */}
+                            <li className='flex items-center gap-x-1 mt-2'><a
+                                href='https://drive.google.com/file/d/1CEEncGAVQkM8yBPEw2_5mlqxpQAaHSKk/view?usp=share_link' className='text-medium text-gray-500 hover:text-white'><HiDocumentText className='h-5 w-5' />RESUME</a></li>
+                            {/* <hr style={{ border: '0.5px solid gray' }} /> */}
+                            <li className='flex items-center gap-x-1 mt-2'><Link to='/projects' className='text-medium text-gray-500 hover:text-white'><AiFillProject className='h-5 w-5' />PROJECTS</Link></li>
+                            {/* <hr style={{ border: '0.5px solid gray' }} /> */}
+                            <li className='flex items-center gap-x-1 mt-2'><Link to='/contact' className='text-medium text-gray-500 hover:text-white'><AiFillContacts className='h-5 w-5' />CONTACT</Link></li>
+                            {/* <hr style={{ border: '0.5px solid gray' }} /> */}
+                        </div>
 
                         <Footer></Footer>
 

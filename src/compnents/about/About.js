@@ -13,7 +13,7 @@ const About = () => {
             <div>
                 <div className='flex items-center justify-between'>
                     <p className='font uppercase ml-4 mt-4 text-blue-300 font-semibold text-3xl'>about me .</p>
-                    <BsPerson className='lg:h-16 md:h-16 h-12 lg:w-16 md:w-16 w-12 text-blue-300 mt-2' />
+                    <BsPerson className='lg:h-16 md:h-16 h-12 lg:w-16 md:w-16 w-12 text-blue-300 mr-4 mt-2' />
                 </div>
                 <hr style={{
                     border: '0.5px dashed gray',
@@ -23,8 +23,12 @@ const About = () => {
             <div className='mt-4 flex flex-col md:flex-row lg:flex-row gap-x-56 gap-y-10'>
                 <div className='ml-3'>
                     <p className='font uppercase font-bold text-3xl text-white'>Front-end & Mern stack developer</p>
-                    <p className='font mt-3'>Dolor reprehenderit aut repudiandae maiores recusandae. Consequatur dolor nisi labore commodi ipsa? Excepturi velit laboriosam at voluptatibus cupiditate est vel. Dolorem praesentium itaque fugiat placeat quas consequatur? Obcaecati natus rerum. <br />
-                        Consectetur consectetur nesciunt nesciunt blanditiis amet? Quod quis unde aliquid excepturi laudantium? Illo architecto aliquam velit illo magnam neque perferendis sint Incidunt eius ipsa inventore labore eos velit. Minus hic magni reiciendis necessitatibus ex Quidem officia deleniti accusamus obcaecati dolores. Porro culpa quibusdam impedit porro praesentium excepturi. Alias ab consequatur?</p>
+                    <p className='font mt-3'>Hello World! I'm Nazrul Islam,a front-End Web Developer & a MERN Developer. <br /><br />
+                        I started my coding journey almost exactly a year ago and now I'm working full time and doing freelance projects on the side for my friends. You may have noticed from my portfolio, but I'm obsessed with unique, interesting design and user-friendly functionality so hit me up with your artistic project ideas or app proposals.
+                        <br /><br />
+                        <strong>Technology leads, society follows.</strong> The move towards increasing inclusivity and diversity in the industry through representational is of importance to me. <br /><br />
+                        I'm excited to make the leap and continue my skills with the right company.
+                    </p>
                     <img className='mt-2' src={sig} alt="" />
                 </div>
                 <div className='lg:mr-4'>

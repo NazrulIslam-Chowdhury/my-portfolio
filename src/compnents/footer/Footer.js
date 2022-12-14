@@ -4,7 +4,7 @@ import { AiFillFacebook, AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 
 const Footer = () => {
     return (
-        <div className='mt-28'>
+        <div className='lg:mt-28 mt-28 md:mt-96'>
             <div className='flex items-center justify-evenly'>
                 <a href='https://www.facebook.com/profile.php?id=100008271873050'><AiFillFacebook className='h-5 w-5 hover:text-white' /></a>
                 <a href='https://www.linkedin.com/in/nazrul-islam-chowdhury/'><AiFillLinkedin className='h-5 w-5 hover:text-white' /></a>

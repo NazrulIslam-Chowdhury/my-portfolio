@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <div className="navbar bg-gray-500 lg:hidden">
+        <div className="navbar bg-gray-700 lg:hidden">
             <div className='navbar-start'>
 
             </div>
