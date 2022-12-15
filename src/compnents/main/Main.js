@@ -6,6 +6,7 @@ import '../../App.css';
 import { FaHome } from 'react-icons/fa';
 import { BsFillPersonFill } from 'react-icons/bs';
 import { HiDocumentText } from 'react-icons/hi';
+import { ImBlog } from 'react-icons/im';
 import { AiFillContacts, AiFillProject } from 'react-icons/ai';
 import Footer from '../footer/Footer';
 
@@ -39,6 +40,7 @@ const Main = () => {
                             {/* <hr style={{ border: '0.5px solid gray' }} /> */}
                             <li className='flex items-center gap-x-1 mt-2'><Link to='/contact' className='text-medium text-gray-500 hover:text-white'><AiFillContacts className='h-5 w-5' />CONTACT</Link></li>
                             {/* <hr style={{ border: '0.5px solid gray' }} /> */}
+                            <li className='flex items-center gap-x-1 mt-2'><Link to='/blog' className='text-medium text-gray-500 hover:text-white'><ImBlog className='h-5 w-5' />Blog</Link></li>
                         </div>
 
                         <Footer></Footer>

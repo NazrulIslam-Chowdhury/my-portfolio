@@ -3,6 +3,7 @@ import { Toaster } from 'react-hot-toast';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import About from './compnents/about/About';
+import Blog from './compnents/blog/Blog';
 import Home from './compnents/home/Home';
 import Main from './compnents/main/Main';
 import Projects from './compnents/projects/Projects';
@@ -29,6 +30,10 @@ function App() {
         {
           path: '/about',
           element: <About></About>
+        },
+        {
+          path: '/blog',
+          element: <Blog></Blog>
         }
       ]
     }

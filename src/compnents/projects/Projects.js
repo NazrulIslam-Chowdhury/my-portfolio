@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <div className='container mx-auto px-4'>
       <div>
-        <p className='font uppercase ml-4 mt-4 text-blue-400 font-semibold text-3xl'>my projects .</p>
+        <p className='font uppercase ml-4 mt-4 text-blue-300 font-semibold text-3xl'>my projects .</p>
         <hr style={{
           border: '0.5px dashed gray',
           margin: '15px 15px 0 15px'
