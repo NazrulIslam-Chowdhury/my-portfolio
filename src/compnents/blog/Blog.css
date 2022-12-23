@@ -1,6 +1,6 @@
 .blog {
     background-color: black;
-    position: center;
+    /* position: center; */
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -11,7 +11,7 @@
     position: relative;
 }
 
-.soon ::before {
+.soon h1::before {
     content: '';
     position: absolute;
     top: 0;
@@ -25,11 +25,11 @@
 @keyframes blinkCursor {
 
     0%,
-    75% {
+    90% {
         opacity: 1;
     }
 
-    76%,
+    91%,
     100% {
         opacity: 0;
     }
@@ -38,9 +38,9 @@
 .soon h1 {
     position: relative;
     color: #03e9f4;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     text-transform: uppercase;
-    animation: typing 8s steps(14) infinite;
+    animation: typing 9s steps(13) infinite;
     overflow: hidden;
 }
 
@@ -54,7 +54,7 @@
 
     30%,
     60% {
-        width: 550px;
+        width: 595.69px;
     }
 
 }

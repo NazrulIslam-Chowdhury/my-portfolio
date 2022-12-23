@@ -49,61 +49,61 @@ const About = () => {
                     <hr style={{ margin: '0 45% 0 45%', border: '2px solid skyBlue' }} />
                 </h1>
 
-                <div className='grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 mt-5 gap-5'>
-                    <div className="card bg-sky-700 text-neutral-content">
+                <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 mt-5 gap-x-5 gap-y-7'>
+                    <div className="card bg-sky-600 shadow-2xl shadow-sky-600 text-neutral-content">
                         <div className="card-body items-center text-center">
                             <h2 className="card-title"><AiFillHtml5 className='h-14 w-14 text-red-400' /></h2>
-                            <h1 className='text-xl font-semibold'>HTML 5</h1>
-                            <p className='font'>We are using cookies for no reason.</p>
+                            <h1 className='text-xl font-semibold font text-white'>HTML 5</h1>
+                            <p className='font text-white'>I'm using HTML almost 1 year now.</p>
                         </div>
                     </div>
-                    <div className="card bg-sky-700 text-neutral-content">
+                    <div className="card bg-sky-600 shadow-2xl shadow-sky-600 text-white">
                         <div className="card-body items-center text-center">
                             <h2 className="card-title"><DiCss3 className='h-14 w-14 text-blue-500' /></h2>
-                            <h1 className='text-xl font-semibold'>CSS3</h1>
-                            <p className='font'>We are using cookies for no reason.</p>
+                            <h1 className='text-xl font-semibold font'>CSS3</h1>
+                            <p className='font'>I'm using CSS almost 1 year now.</p>
                         </div>
                     </div>
-                    <div className="card bg-sky-700 text-neutral-content">
+                    <div className="card bg-sky-600 shadow-2xl shadow-sky-600 text-white">
                         <div className="card-body items-center text-center">
                             <h2 className="card-title"><SiTailwindcss className='h-14 w-14 text-sky-400' /></h2>
-                            <h1 className='text-xl font-semibold'>TIALWIND CSS</h1>
-                            <p className='font'>We are using cookies for no reason.</p>
+                            <h1 className='text-xl font-semibold font'>TIALWIND CSS</h1>
+                            <p className='font'>I'm using TAILWIND almost 1 year now.</p>
                         </div>
                     </div>
-                    <div className="card bg-sky-700 text-neutral-content">
+                    <div className="card bg-sky-600 shadow-2xl shadow-sky-600 text-white">
                         <div className="card-body items-center text-center">
                             <h2 className="card-title"><BsFillBootstrapFill className='h-14 w-14 text-violet-400' /></h2>
-                            <h1 className='text-xl font-semibold'>BOOTSTRAP</h1>
-                            <p className='font'>We are using cookies for no reason.</p>
+                            <h1 className='text-xl font-semibold font'>BOOTSTRAP</h1>
+                            <p className='font'>I'm using BOOTSTRAP 1 year now.</p>
                         </div>
                     </div>
-                    <div className="card bg-sky-700 text-neutral-content">
+                    <div className="card bg-sky-600 shadow-2xl shadow-sky-600 text-white">
                         <div className="card-body items-center text-center">
                             <h2 className="card-title"><SiJavascript className='h-14 w-14 text-yellow-300' /></h2>
-                            <h1 className='text-xl font-semibold'>JAVASCRIPT</h1>
-                            <p className='font'>We are using cookies for no reason.</p>
+                            <h1 className='text-xl font-semibold font'>JAVASCRIPT</h1>
+                            <p className='font'>I'm using JS 7 months now.</p>
                         </div>
                     </div>
-                    <div className="card bg-sky-700 text-neutral-content">
+                    <div className="card bg-sky-600 shadow-2xl shadow-sky-600 text-white">
                         <div className="card-body items-center text-center">
                             <h2 className="card-title"><SiReact className='h-14 w-14 text-blue-400' /></h2>
-                            <h1 className='text-xl font-semibold'>REACT JS</h1>
-                            <p className='font'>We are using cookies for no reason.</p>
+                            <h1 className='text-xl font-semibold font'>REACT JS</h1>
+                            <p className='font'>Using REACT JS 6 months now.</p>
                         </div>
                     </div>
-                    <div className="card bg-sky-700 text-neutral-content">
+                    <div className="card bg-sky-600 shadow-2xl shadow-sky-600 text-white">
                         <div className="card-body items-center text-center">
                             <h2 className="card-title"><FaNode className='h-14 w-14 text-green-500' /></h2>
-                            <h1 className='text-xl font-semibold'>NODE JS</h1>
-                            <p className='font'>We are using cookies for no reason.</p>
+                            <h1 className='text-xl font-semibold font'>NODE JS</h1>
+                            <p className='font'>I'm using NODE JS 6 months now.</p>
                         </div>
                     </div>
-                    <div className="card bg-sky-700 text-neutral-content">
+                    <div className="card bg-sky-600 shadow-2xl shadow-sky-600 text-white">
                         <div className="card-body items-center text-center">
                             <h2 className="card-title"><SiMongodb className='h-14 w-14 text-green-400' /></h2>
-                            <h1 className='text-xl font-semibold'>MONGO DB</h1>
-                            <p className='font'>We are using cookies for no reason.</p>
+                            <h1 className='text-xl font-semibold font'>MONGO DB</h1>
+                            <p className='font'>I'm using MONGO DB 6 months now.</p>
                         </div>
                     </div>
                 </div>
