@@ -1,19 +1,23 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import toast from 'react-hot-toast';
+import toast, { Toaster } from 'react-hot-toast';
 import { MdContactMail } from 'react-icons/md'
 
 const Contact = () => {
     const form = useRef();
+    const [error, setError] = useState('');
+
     const sendEmail = (e) => {
         e.preventDefault();
 
         emailjs.sendForm('service_38hhx1a', 'template_m8j58tf', form.current, 'HXjlHLKHUos-E7lOa')
             .then((result) => {
-                // console.log(result.text);
-                toast.success('Message sent successfully')
+                // console.log(result);
+                if (result.text === 'OK') {
+                    toast.success('Message sent successfully');
+                }
             }, (error) => {
-                console.log(error.text);
+                setError(error.text);
             });
     };
 
@@ -34,7 +38,9 @@ const Contact = () => {
                     <input type="text" placeholder="email" className="input input-bordered input-accent w-full max-w-xs" name="user_email" />
                     <label className='mt-3 font'>Message</label>
                     <textarea className="textarea textarea-accent max-w-xs" placeholder="message" name="message"></textarea>
+                    <p className='mt-3 text-red-500 text-lg font-semibold'>{error}</p>
                     <button className='btn btn-outline font max-w-xs mt-5'>Submit</button>
+                    <Toaster />
                 </form>
                 <MdContactMail className='h-56 w-52 text-green-400' />
             </div>

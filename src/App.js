@@ -1,5 +1,3 @@
-
-import { Toaster } from 'react-hot-toast';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import About from './compnents/about/About';
@@ -41,7 +39,6 @@ function App() {
   return (
     <RouterProvider router={router}>
 
-      <Toaster />
     </RouterProvider>
   );
 }
